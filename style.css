@@ -1,0 +1,133 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffeef8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://i.postimg.cc/WzdScnbm/360-F-210459536-Xm-LDEc-Kq2-Dpe-NLVmheu-Weu9-NM9a-GKnih.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+nav {
+  text-align: center;
+  background-color: #864ffc;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: color 0.3s;
+  position: relative;
+}
+
+nav a:hover {
+  color: #ffeb3b;
+}
+
+nav a::after {
+  content: "✦";
+  color: #ffeb3b;
+  position: absolute;
+  left: -15px;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+nav a:hover::after {
+  opacity: 1;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-image: url(https://i.postimg.cc/VkWhRKS5/premium-photo-1664443577580-dd2674e9d359.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+form {
+  margin: 1%;
+}
+
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #7a1cac;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: #8822cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #8822cc;
+}
+
+main {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+article {
+  text-align: center;
+  margin: 20px 0;
+}
+
+table {
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 1px solid #f0c3e2;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+th {
+  background-color: #ad49e1;
+  color: white;
+}
+
+td {
+  background-color: #e6e6e6;
+  color: #1b1b1b;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ebd3f8;
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+  position: relative;
+}
